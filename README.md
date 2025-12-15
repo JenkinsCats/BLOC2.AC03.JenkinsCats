@@ -1,5 +1,23 @@
 # BLOC2.AC03.JenkinsCats
 
+
+### Fitxers de codi
+
+- 📄 **[Programa sense refactoritzar](./code/ProgramNoRefactor.cs)**  
+  Versió original del programa abans del procés de refactorització.
+
+- 📄 **[Programa refactoritzat](./code/Program.cs)**  
+  Versió del programa després d’aplicar les millores de refactorització.
+
+- 📚 **[Classe amb els mètodes de la llibreria](./code/JenkinsCatsClass.cs)**  
+  Conté la implementació dels mètodes utilitzats al Program.
+
+- 🧪 **[Tests XUnit utilitzant la classe](./code/JenkinsCatsXUnitTests.cs)**  
+  Conjunt de proves unitàries XUnit que validen el funcionament de la llibreria.
+
+
+---
+
 ## Pregunta 1:
 **En aquest anàlisi inicial del programa, es mostren resultats en l’apartat de cobertura de codi (coverage)? Raoneu la vostra resposta, incloent una captura de la pantalla de resum de SonarCloud.**
 
