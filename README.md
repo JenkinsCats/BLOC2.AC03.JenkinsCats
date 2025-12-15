@@ -1,5 +1,10 @@
 # BLOC2.AC03.JenkinsCats
 
+## Classes de equivalència
+- Classe 1: El resultat és zero.
+- Classe 2: El resultat és positiu.
+- Classe 3: El resultat és negatiu.
+
 ## Valors limit
 Els valors limit per les variables a, b i c son: (-∞, 0 ,∞)
 
