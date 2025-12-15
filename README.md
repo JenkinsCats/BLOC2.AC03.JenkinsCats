@@ -1,5 +1,23 @@
 # BLOC2.AC03.JenkinsCats
 
+## Pregunta 1:
+**En aquest anàlisi inicial del programa, es mostren resultats en l’apartat de cobertura de codi (coverage)? Raoneu la vostra resposta, incloent una captura de la pantalla de resum de SonarCloud.**
+
+
+## Pregunta 2:
+**Quines accions heu realitzat per reduir la complexitat ciclomàtica?  Raoneu la vostra resposta.**
+
+
+## Pregunta 3:
+**Pregunta 3: Com separaríeu la lògica de càlcul en mètodes independents?  Raoneu la vostra resposta.**
+Separariem la lògica del càlcul en dos mètodes: un per calcular el resultat, retornant el resultat, i un altre on poder mostrar un missatge depenent del resultat, concretament retornar un string amb el missatge, així fem el codi més modular i podrem identificar bugs més fàcilment i refactoritzar millor.
+
+## Pregunta 4:
+**Es poden passar tots els tests correctament? Com es captura la sortida per consola? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.**
+
+## Pregunta 5: 
+**Quin error ha estat més difícil/complex de solucionar? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.**
+
 ## Classes de equivalència
 - Classe 1: El resultat és zero.
 - Classe 2: El resultat és positiu.
