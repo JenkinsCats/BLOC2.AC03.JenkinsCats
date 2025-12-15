@@ -1,75 +1,66 @@
-// Program.cs
 using System;
 
 namespace CodeWithIssues
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+
+        public static void Main()
         {
-            int unusedVar = 10;
+            const string MsgWelcome = "Benvingut al programa de càlculs!";
+            const string MsgEnd = "Finalitzant el programa...";
 
-            Console.WriteLine("Benvingut al programa de càlculs!");
-            Console.WriteLine("Benvingut al programa de càlculs!");
 
-            int a = 5;
-            int b = 10;
-            int c = 15;
+            Console.WriteLine(MsgWelcome);
+
+            int numOne = 5;
+            int numTwo = 14;
+            int numThree = 15;
+
+            int result = CalculateResult(numOne, numTwo, numThree);
+            string msgResult = ShowMsg(result);
+
+            Console.WriteLine(msgResult);
+            Console.WriteLine(MsgEnd);
+        }
+        public static int CalculateResult(int numOne, int numTwo, int numThree)
+        {
             int result = 0;
-
-            if (a > 0)
+            if (numOne > 0 && numTwo > 0 && numThree > 0)
             {
-                if (b > 0)
-                {
-                    if (c > 0)
-                    {
-                        result = a + b + c;
-                    }
-                    else
-                    {
-                        result = a + b;
-                    }
-                }
-                else
-                {
-                    result = a;
-                }
+                result = numOne + numTwo + numThree;
             }
-            else
+            else if (numOne > 0 && numTwo > 0 && numThree <= 0)
+            {
+                result = numOne + numThree;
+            }
+            else if (numOne > 0 && numTwo <= 0)
+            {
+                result = numOne;
+            }
+            else if (numOne <= 0)
             {
                 result = 0;
             }
+            return result;
 
+        }
+        public static string ShowMsg(int result)
+        {
+            string msgResult = "";
             if (result == 0)
             {
-                Console.WriteLine("El resultat és zero.");
+                msgResult = "El resultat és zero.";
             }
             else if (result > 0)
             {
-                Console.WriteLine("El resultat és positiu.");
+                msgResult = "El resultat és positiu.";
             }
             else
             {
-                Console.WriteLine("El resultat és negatiu.");
+                msgResult = "El resultat és negatiu.";
             }
-
-            int counter = 0;
-            while (true)
-            {
-                counter++;
-                if (counter > 100)
-                {
-                    break;
-                }
-            }
-
-            // int oldVar = 20;
-
-            int x = 5;
-            x = x + 0;
-
-            Console.WriteLine("Finalitzant el programa...");
-            Console.WriteLine("Finalitzant el programa...");
+            return msgResult;
         }
     }
 }
