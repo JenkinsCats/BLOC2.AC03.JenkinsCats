@@ -23,6 +23,12 @@ namespace CodeWithIssues
             Console.WriteLine(msgResult);
             Console.WriteLine(MsgEnd);
         }
+        // This function calculates a result based on the values of three integer parameters.
+        // It sums the numbers according to specific conditions:
+        // - If all three numbers are positive, it sums all three.
+        // - If numOne and numTwo are positive but numThree is zero or negative, it sums numOne and numThree.
+        // - If only numOne is positive, it returns numOne.
+        // - If numOne is zero or negative, it returns 0.
         public static int CalculateResult(int numOne, int numTwo, int numThree)
         {
             int result = 0;
@@ -43,8 +49,11 @@ namespace CodeWithIssues
                 result = 0;
             }
             return result;
-
         }
+        // This function returns a message based on the value of the integer parameter 'result':
+        // - If result is 0, it returns "El resultat és zero."
+        // - If result is greater than 0, it returns "El resultat és positiu."
+        // - If result is less than 0, it returns "El resultat és negatiu."
         public static string ShowMsg(int result)
         {
             string msgResult = "";
