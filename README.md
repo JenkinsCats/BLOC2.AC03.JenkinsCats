@@ -1,5 +1,8 @@
 # BLOC2.AC03.JenkinsCats
 
+## Valors limit
+Els valors limit per les variables a, b i c son: (-∞, 0 ,∞)
+
 ## Casos de prova
 
 | Cas | Nom del cas de prova | Descripció | Entrada | Accions | Resultat esperat | Resultat obtingut |
