@@ -6,7 +6,17 @@
 
 ## Pregunta 2:
 **Quines accions heu realitzat per reduir la complexitat ciclomàtica?  Raoneu la vostra resposta.**
+La primera funció calcula un resultat basat en els valors de tres paràmetres enters.
+Es sumen els números segons condicions específiques:
+  - Si els tres números són positius, sumen els tres.
+  - Si numOne i numTwo són positius però numThree és zero o negatiu, suma numOne i numThree.
+  - Si només numOne és positiu, retorna numOne.
+  - Si numOne és zero o negatiu, retorna 0.
 
+La segona funció retorna un missatge basat en el valor del paràmetre enter 'resultat':
+ - Si el resultat és 0, retorna "El resultat és zero".
+ - Si el resultat és superior a 0, retorna "El resultat és positiu".
+ - Si el resultat és inferior a 0, retorna "El resultat és negatiu".
 
 ## Pregunta 3:
 **Pregunta 3: Com separaríeu la lògica de càlcul en mètodes independents?  Raoneu la vostra resposta.**
