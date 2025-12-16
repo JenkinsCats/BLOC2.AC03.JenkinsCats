@@ -46,9 +46,11 @@ Separariem la lògica del càlcul en dos mètodes: un per calcular el resultat, 
 **Es poden passar tots els tests correctament? Com es captura la sortida per consola? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.**
 
 Si, tots els test s'han executat correctament:
+
 ![yipieee](./img/TestCorrecte.png)
 
 Sortida per consola:
+
 ![Yeeeeei](./img/TestConsoleOut.png)
 
 ## Pregunta 5: 
