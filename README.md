@@ -101,13 +101,13 @@ https://www.checkpoint.com/es/cyber-hub/cloud-security/what-is-static-code-analy
   **Prompt:** Generame un .gitignore.
   
   **Resposta:** 
-  # --- Sistemas Operativos ---
+
 .DS_Store
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# --- IDEs y Editores ---
+
 .idea/
 .vscode/
 *.swp
@@ -116,7 +116,7 @@ $RECYCLE.BIN/
 .classpath
 .settings/
 
-# --- Node.js / Web ---
+
 node_modules/
 dist/
 build/
@@ -124,20 +124,20 @@ npm-debug.log*
 yarn-debug.log*
 .env
 
-# --- Python ---
+
 __pycache__/
 *.py[cod]
 venv/
 .venv/
 env/
 
-# --- Java / Maven / Gradle ---
+
 target/
 *.class
 .gradle/
 build/
 
-# --- C# / .NET ---
+
 bin/
 obj/
 
