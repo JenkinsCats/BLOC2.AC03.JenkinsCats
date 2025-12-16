@@ -83,8 +83,10 @@ Els valors limit per les variables a, b i c son: (-∞, 0 ,∞)
 ## Webgrafia i IA consultada
 
 ### Webgrafia:
-https://www.softcatala.org/traductor/
-https://www.checkpoint.com/es/cyber-hub/cloud-security/what-is-static-code-analysis/
+[Softcatala](https://www.softcatala.org/traductor/)
+
+[Checkpoint](https://www.checkpoint.com/es/cyber-hub/cloud-security/what-is-static-code-analysis/)
+
 [SonnarQube]([https://github.com/szlian/-BLOC2.AC03---Integraci-cont-nua-i-tests-unitaris.git](https://www.sonarsource.com/products/sonarqube/?utm_source=google&utm_medium=cpc&utm_campaign=SQ-EMEA-South-South-Brand&utm_content=Brand-Cloud&utm_term=sonarcloud&s_campaign=SQ-EMEA-South-South-Brand&s_content=172503561991&s_category=Paid&s_source=Paid%20Search&s_origin=Google&cq_src=google_ads&cq_cmp=21283128645&cq_con=172503561991&cq_term=sonarcloud&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&gad_source=1&gad_campaignid=21283128645&gbraid=0AAAAAC0fKmqGjQP3djWICJgrPciTB8gp5&gclid=EAIaIQobChMIyMLNlf7BkQMV6_J5BB0SGxpMEAAYASAAEgJCjPD_BwE))
 
 
@@ -107,7 +109,6 @@ Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-
 .idea/
 .vscode/
 *.swp
@@ -116,7 +117,6 @@ $RECYCLE.BIN/
 .classpath
 .settings/
 
-
 node_modules/
 dist/
 build/
@@ -124,23 +124,19 @@ npm-debug.log*
 yarn-debug.log*
 .env
 
-
 __pycache__/
 *.py[cod]
 venv/
 .venv/
 env/
 
-
 target/
 *.class
 .gradle/
 build/
 
-
 bin/
 obj/
-
 
 ### Deepseek
 
