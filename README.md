@@ -147,4 +147,5 @@ obj/
 Comando	¿Cuándo usarlo?	Explicación
 git push -f	Proyecto personal o rama propia. Estás seguro de que nadie ha hecho cambios en esa rama.	Es el atajo corto de --force. Sobrescribe el historial remoto sin preguntar. Usa con cuidado.
 git push --force-with-lease	Proyecto en equipo. Es la opción recomendada cuando trabajas con otros.	Fuerza la subida solo si el estado del remoto es el mismo que cuando tú lo descargaste. Previene borrar commits de otros.
-  
+
+[Conversa](https://chat.deepseek.com/share/3kyptuonqppwagekr8)
