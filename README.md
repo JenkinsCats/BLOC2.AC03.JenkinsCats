@@ -24,6 +24,7 @@
 
 ## Pregunta 2:
 **Quines accions heu realitzat per reduir la complexitat ciclomàtica?  Raoneu la vostra resposta.**
+
 La primera funció calcula un resultat basat en els valors de tres paràmetres enters.
 Es sumen els números segons condicions específiques:
   - Si els tres números són positius, sumen els tres.
