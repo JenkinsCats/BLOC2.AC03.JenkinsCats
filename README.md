@@ -38,7 +38,7 @@ La segona funció retorna un missatge basat en el valor del paràmetre enter 're
  - Si el resultat és inferior a 0, retorna "El resultat és negatiu".
 
 ## Pregunta 3:
-**Pregunta 3: Com separaríeu la lògica de càlcul en mètodes independents?  Raoneu la vostra resposta.**
+**Com separaríeu la lògica de càlcul en mètodes independents?  Raoneu la vostra resposta.**
 
 Separariem la lògica del càlcul en dos mètodes: un per calcular el resultat, retornant el resultat, i un altre on poder mostrar un missatge depenent del resultat, concretament retornar un string amb el missatge, així fem el codi més modular i podrem identificar bugs més fàcilment i refactoritzar millor.
 
