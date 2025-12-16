@@ -82,6 +82,12 @@ Els valors limit per les variables a, b i c son: (-∞, 0 ,∞)
 
 ## Webgrafia i IA consultada
 
+### Webgrafia:
+https://www.softcatala.org/traductor/
+https://www.checkpoint.com/es/cyber-hub/cloud-security/what-is-static-code-analysis/
+[SonnarQube]([https://github.com/szlian/-BLOC2.AC03---Integraci-cont-nua-i-tests-unitaris.git](https://www.sonarsource.com/products/sonarqube/?utm_source=google&utm_medium=cpc&utm_campaign=SQ-EMEA-South-South-Brand&utm_content=Brand-Cloud&utm_term=sonarcloud&s_campaign=SQ-EMEA-South-South-Brand&s_content=172503561991&s_category=Paid&s_source=Paid%20Search&s_origin=Google&cq_src=google_ads&cq_cmp=21283128645&cq_con=172503561991&cq_term=sonarcloud&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&gad_source=1&gad_campaignid=21283128645&gbraid=0AAAAAC0fKmqGjQP3djWICJgrPciTB8gp5&gclid=EAIaIQobChMIyMLNlf7BkQMV6_J5BB0SGxpMEAAYASAAEgJCjPD_BwE))
+
+
 ### ChatGPT:
 
   **Prompt:** Pasa este fichero csv a una tabla de markdown.
@@ -90,3 +96,59 @@ Els valors limit per les variables a, b i c son: (-∞, 0 ,∞)
   
   [Conversa](https://chatgpt.com/share/693ffefd-6848-800f-80a4-15238f252067)
 
+### Gemini AI
+
+  **Prompt:** Generame un .gitignore.
+  
+  **Resposta:** 
+  # --- Sistemas Operativos ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- IDEs y Editores ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# --- Node.js / Web ---
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# --- Java / Maven / Gradle ---
+target/
+*.class
+.gradle/
+build/
+
+# --- C# / .NET ---
+bin/
+obj/
+
+
+### Deepseek
+
+  **Prompt:** cual comando uso para forzar subida en github?
+  
+  **Resposta:** Para forzar una subida (push) a GitHub, tienes dos opciones principales. Usa esta tabla para decidir:
+
+Comando	¿Cuándo usarlo?	Explicación
+git push -f	Proyecto personal o rama propia. Estás seguro de que nadie ha hecho cambios en esa rama.	Es el atajo corto de --force. Sobrescribe el historial remoto sin preguntar. Usa con cuidado.
+git push --force-with-lease	Proyecto en equipo. Es la opción recomendada cuando trabajas con otros.	Fuerza la subida solo si el estado del remoto es el mismo que cuando tú lo descargaste. Previene borrar commits de otros.
+  
