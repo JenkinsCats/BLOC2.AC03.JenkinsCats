@@ -48,6 +48,8 @@ Separariem la lògica del càlcul en dos mètodes: un per calcular el resultat, 
 ## Pregunta 5: 
 **Quin error ha estat més difícil/complex de solucionar? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.**
 
+L'error més difícil que hem tingut que solucionar és que alhora e configurar el Jenkins en l'Isard hi han botons invisibles, això només passa en el navegador de FireFox, el predeterminat per la màquina d'Isard, i això va alentir la instal·lació. Vam inspeccionar la pàgina i també els vam buscar manualment fins que vam canviar el navegador per veure si era un problema d'aquest últim i resulta que si.
+
 ## Classes de equivalència
 - Classe 1: El resultat és zero.
 - Classe 2: El resultat és positiu.
