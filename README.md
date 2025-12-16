@@ -67,7 +67,9 @@ Els valors limit per les variables a, b i c son: (-∞, 0 ,∞)
 
 ## Webgrafia i IA consultada
 
-# ChatGPT:
+### ChatGPT:
 
-  [Pasa este fichero csv a una tabla de markdown](https://chatgpt.com/share/693ffefd-6848-800f-80a4-15238f252067)
+  **Prompt:** Pasa este fichero csv a una tabla de markdown
+  **Resposta:** Aquí tens el contingut del fitxer CSV passat a taula Markdown (amb les capçaleres correctes): *taula* Si la vols exportar a un fitxer .md, adaptar-la per GitHub, o netejar textos/traduir-los, digues-m’ho.
+  [Conversa](https://chatgpt.com/share/693ffefd-6848-800f-80a4-15238f252067)
 
