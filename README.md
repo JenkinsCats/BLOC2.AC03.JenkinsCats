@@ -25,6 +25,7 @@
     
 <img width="691" height="182" alt="image" src="https://github.com/user-attachments/assets/70368c63-3916-4480-a574-bda59995f854" />
 
+
 - [Repositori](https://github.com/szlian/-BLOC2.AC03---Integraci-cont-nua-i-tests-unitaris.git)
 
 ## Pregunta 2:
@@ -61,7 +62,21 @@ Sortida per consola:
 ## Pregunta 5: 
 **Quin error ha estat més difícil/complex de solucionar? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.**
 
-L'error més difícil que hem tingut que solucionar és que alhora e configurar el Jenkins en l'Isard hi han botons invisibles, això només passa en el navegador de FireFox, el predeterminat per la màquina d'Isard, i això va alentir la instal·lació. Vam inspeccionar la pàgina i també els vam buscar manualment fins que vam canviar el navegador per veure si era un problema d'aquest últim i resulta que si.
+
+El que més ens va costar va ser configurar correctament l'estructura del projecte perquè GitHub i SonarCloud s'entenguessin. Els punts clau van ser:
+
+El problema principal (Rutes trencades en la Solució): L'arxiu .sln no trobava els projectes a causa d'una discrepància entre les rutes lògiques i les carpetes reals, generant errors de compilació i duplicats.
+
+Solució: Esborrem l'arxiu corrupte i regenerem la solució (.sln) des de zero, verificant manualment les rutes en la consola abans de vincular els projectes.
+
+Configuració del Workflow: GitHub Actions no arrencava perquè la carpeta .github estava oculta dins d'un subdirectori.
+
+Solució: Vam moure la carpeta de configuració a l'arrel absoluta del repositori.
+
+Solució: Modifiquem el script .yml per a incloure el comando dotnet test, permetent que es generin i reportin les mètriques de cobertura
+
+
+Hem tingut que solucionar és que alhora e configurar el Jenkins en l'Isard hi han botons invisibles, això només passa en el navegador de FireFox, el predeterminat per la màquina d'Isard, i això va alentir la instal·lació. Vam inspeccionar la pàgina i també els vam buscar manualment fins que vam canviar el navegador per veure si era un problema d'aquest últim i resulta que si.
 
 ## Classes de equivalència
 - Classe 1: El resultat és zero.
