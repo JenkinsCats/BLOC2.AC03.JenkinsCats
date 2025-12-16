@@ -25,6 +25,9 @@
     
 <img width="691" height="182" alt="image" src="https://github.com/user-attachments/assets/70368c63-3916-4480-a574-bda59995f854" />
 
+  - Com es mostra si la cobertura apareix com 100%
+<img width="911" height="247" alt="Captura de pantalla 2025-12-16 155459" src="https://github.com/user-attachments/assets/6c0566b0-6994-4f36-b3d4-ec97dfa6a58c" />
+
 
 - [Repositori](https://github.com/szlian/-BLOC2.AC03---Integraci-cont-nua-i-tests-unitaris.git)
 
@@ -73,7 +76,7 @@ Configuració del Workflow: GitHub Actions no arrencava perquè la carpeta .gith
 
 Solució: Vam moure la carpeta de configuració a l'arrel absoluta del repositori.
 
-Solució: Modifiquem el script .yml per a incloure el comando dotnet test, permetent que es generin i reportin les mètriques de cobertura
+Solució: Modifiquem el script .yml per a incloure el comando dotnet test, permetent que es generin i reportin les mètriques de cobertura.
 
 
 Hem tingut que solucionar és que alhora e configurar el Jenkins en l'Isard hi han botons invisibles, això només passa en el navegador de FireFox, el predeterminat per la màquina d'Isard, i això va alentir la instal·lació. Vam inspeccionar la pàgina i també els vam buscar manualment fins que vam canviar el navegador per veure si era un problema d'aquest últim i resulta que si.
@@ -164,3 +167,4 @@ git push -f	Proyecto personal o rama propia. Estás seguro de que nadie ha hecho
 git push --force-with-lease	Proyecto en equipo. Es la opción recomendada cuando trabajas con otros.	Fuerza la subida solo si el estado del remoto es el mismo que cuando tú lo descargaste. Previene borrar commits de otros.
 
 [Conversa](https://chat.deepseek.com/share/3kyptuonqppwagekr8)
+
