@@ -22,8 +22,10 @@
 **En aquest anàlisi inicial del programa, es mostren resultats en l’apartat de cobertura de codi (coverage)? Raoneu la vostra resposta, incloent una captura de la pantalla de resum de SonarCloud.**
   - No, no es mostren, els resultats de cobertura apareix com 0.0%.
     Apareix 0% ja que és pel fet que el sonnarCLoud l'única cosa que fa és revisar-te el codi sense posar-lo a prova, és a dir que ell sap que aquesta codi está bé, però no sabrà si en la practica funcionarà
-  <img width="691" height="182" alt="image" src="https://github.com/user-attachments/assets/70368c63-3916-4480-a574-bda59995f854" />
- -  https://github.com/szlian/-BLOC2.AC03---Integraci-cont-nua-i-tests-unitaris.git
+    
+<img width="691" height="182" alt="image" src="https://github.com/user-attachments/assets/70368c63-3916-4480-a574-bda59995f854" />
+
+- [Repositori](https://github.com/szlian/-BLOC2.AC03---Integraci-cont-nua-i-tests-unitaris.git)
 
 ## Pregunta 2:
 **Quines accions heu realitzat per reduir la complexitat ciclomàtica?  Raoneu la vostra resposta.**
